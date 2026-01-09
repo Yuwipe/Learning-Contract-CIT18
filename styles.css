@@ -4,7 +4,10 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: #f9f9f9;
+    background-image: url("background.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .container {
@@ -26,7 +29,7 @@ h1 {
 }
 
 section {
-    background: white;
+    background: rgba(255, 255, 255, 0.7);
     margin: 20px 0;
     padding: 20px;
     border-radius: 6px;
